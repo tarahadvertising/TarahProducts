@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 332">
+  <path d="M825.84,109.63c-57.12,0-103.42-46.3-103.42-103.42,0,57.12-46.3,103.42-103.42,103.42,57.12,0,103.42,46.3,103.42,103.42,0-57.12,46.3-103.42,103.42-103.42Z" style="fill: none; stroke: #c33; stroke-miterlimit: 10; stroke-width: 1.2px;"/>
+  <path d="M660.85,58.25c-16.81,0-30.44-13.63-30.44-30.44,0,16.81-13.63,30.44-30.44,30.44,16.81,0,30.44,13.63,30.44,30.44,0-16.81,13.63-30.44,30.44-30.44Z" style="fill: #c33; stroke-width: 0px;"/>
+  <path d="M686.47,161.08c-11.39,0-20.63-9.24-20.63-20.63,0,11.39-9.24,20.63-20.63,20.63,11.39,0,20.63,9.24,20.63,20.63,0-11.39,9.24-20.63,20.63-20.63Z" style="fill: #c33; stroke-width: 0px;"/>
+  <g>
+    <path d="M.25,325.45h33.52c13.26,0,24-10.75,24-24v-99.17" style="fill: none; stroke: #c33; stroke-miterlimit: 10; stroke-width: 1.2px;"/>
+    <path d="M108.9,109.63h-27.92c-12.82,0-23.22,10.4-23.22,23.22v69.42" style="fill: none; stroke: #c33; stroke-miterlimit: 10; stroke-width: 1.2px;"/>
+    <line x1="630.4" y1="109.63" x2="106.19" y2="109.63" style="fill: none; stroke: #c33; stroke-miterlimit: 10; stroke-width: 1.2px;"/>
+  </g>
+  <line x1="879.75" y1="109.63" x2="816.07" y2="109.63" style="fill: none; stroke: #c33; stroke-miterlimit: 10; stroke-width: 1.2px;"/>
+</svg>

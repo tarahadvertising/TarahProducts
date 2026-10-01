@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-red: #cf2037;
+    --brand-red-dark: #8b1913;
+    --brand-red-light: #ea3a50;
+    --brand-text: #2d333a;
+    --brand-bg: #f8f9fa;
+  }
+
+  *,
+  ::before,
+  ::after {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  html,
+  body {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    color: #2d333a;
+    background-color: #f8f9fa;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #cf2037;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8b1913;
+  }
+}
+
+/* Tarah Heading Style */
+.tarah-heading {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  color: #2d333a;
+}
+
+.tarah-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 3px;
+  background-color: #cf2037;
+  border-radius: 2px;
+}
+
+.tarah-heading-left::after {
+  left: 0;
+  transform: none;
+}
+
+/* Animations */
+@keyframes pulse-subtle {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s infinite ease-in-out;
+}
+
+/* Tarah Red Header & Navigation */
+.tarah-header-bg {
+  background-color: #cf2037;
+}
+
+.tarah-footer-bg {
+  background-color: #cf2037;
+  border-top: 1px solid #8b1913;
+}
+
+/* Soft card shadow */
+.tarah-card {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.tarah-card:hover {
+  border-color: #cf2037;
+  box-shadow: 0 10px 25px rgba(207, 32, 55, 0.12);
+  transform: translateY(-3px);
+}
+
+/* 360 Degree Turntable Product Spin */
+@keyframes spin360 {
+  0% {
+    transform: translateY(-26px) scale(1.32) rotateY(0deg);
+  }
+  100% {
+    transform: translateY(-26px) scale(1.32) rotateY(360deg);
+  }
+}
+
+@keyframes groundPulse360 {
+  0%, 100% {
+    transform: scale(0.85);
+    opacity: 0.35;
+  }
+  50% {
+    transform: scale(0.65);
+    opacity: 0.18;
+  }
+}
+
+.animate-360-spin {
+  animation: spin360 4s linear infinite;
+  transform-style: preserve-3d;
+}
+
+.animate-ground-360 {
+  animation: groundPulse360 4s ease-in-out infinite;
+}
